@@ -55,10 +55,10 @@ import com.example.prebidunitysdk.databinding.ActivityDemoBinding;
 
 public class EventManagementUnity extends Activity {
 
-    public static final String AD_UNIT_ID = "/21808260008/prebid_demo_app_original_api_banner_300x250_order";
-    public static final String CONFIG_ID = "prebid-demo-banner-300-250";
-    public static final int WIDTH = 300;
-    public static final int HEIGHT = 250;
+    private static final String AD_UNIT_ID = "/21808260008/prebid_demo_app_original_api_banner";
+    private static final String CONFIG_ID = "prebid-demo-banner-320-50";
+    private static final int WIDTH = 320;
+    private static final int HEIGHT = 50;
 
     public static  BannerAdUnit adUnit;
     public static  ActivityDemoBinding binding;
